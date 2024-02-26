@@ -1,0 +1,42 @@
+{
+  "name": "@fairdex/router-sdk",
+  "version": "1.0.7",
+  "description": "An sdk for routing swaps on FairDEX",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "tsdx test",
+    "build": "tsdx build",
+    "start": "tsdx watch",
+    "prepublishOnly": "tsdx build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fairdex/router-sdk.git"
+  },
+  "keywords": [
+    "uniswap",
+    "fairdex",
+    "solidly",
+    "ethereum"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@ethersproject/abi": "^5.5.0",
+    "@fairdex/sdk-core": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "prettier": "^2.4.1",
+    "tsdx": "^0.14.1"
+  },
+  "prettier": {
+    "endOfLine": "lf",
+    "semi": true,
+    "singleQuote": false,
+    "tabWidth": 2
+  }
+}
